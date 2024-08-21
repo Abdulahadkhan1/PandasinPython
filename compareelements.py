@@ -1,0 +1,13 @@
+import pandas as pd
+ds1 = pd.Series([2, 4, 6, 8, 10])
+ds2 = pd.Series([1, 3, 5, 7, 10])
+print("Series 1")
+print(ds1)
+print("Series 2")
+print(ds2)
+print(ds1 == ds2)
+print("both are Equal")
+print(ds1<ds2)
+print("series 1 is less than series 2")
+print(ds1>ds2)
+print("series 1 is greater than series 2")
